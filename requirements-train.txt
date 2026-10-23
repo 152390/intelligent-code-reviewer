@@ -1,0 +1,9 @@
+# Fine-tuning and running the open-weight model (GPU, e.g. Google Colab T4)
+-r requirements.txt
+torch>=2.1
+transformers>=4.44
+peft>=0.12
+datasets>=2.20
+accelerate>=0.33
+bitsandbytes>=0.43
+sentence-transformers>=3.0   # optional dense embeddings for the context builder

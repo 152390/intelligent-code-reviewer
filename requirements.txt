@@ -1,0 +1,12 @@
+# Core prototype (CPU is enough with the heuristic or openai backend)
+numpy>=1.24
+scikit-learn>=1.3
+requests>=2.31
+pylint>=3.0
+semgrep>=1.50          # Linux/macOS; on Windows use WSL
+tree-sitter>=0.22
+tree-sitter-python>=0.21
+tree-sitter-java>=0.21
+sacrebleu>=2.3
+scipy>=1.10
+pytest>=7
